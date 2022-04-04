@@ -130,9 +130,25 @@ main {
   flex-direction: column;
 }
 
+#selectd-image {
+  width: 597px;
+  height:510px;
+  margin-bottom: 15px;
+}
+
 .images {
   display: flex;
   gap: 30px;
+  height: 166px;
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+}
+
+.images img:hover {
+  cursor: pointer;
 }
 
 footer {
